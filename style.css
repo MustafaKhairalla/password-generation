@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(img/187282.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;*/
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+h2{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.main{
+    border: solid 1px grey;
+    background-color: brown;
+    align-items: center;
+    width: 25%;
+    height: 50%;
+    padding: 1rem;
+}
+
+ .result-area{
+    height: auto;
+    min-height: 50px;
+    background-color: aquamarine;
+    margin: 1rem auto;
+    position: relative;
+
+    
+    
+} 
+
+.clipBtn{
+    font-size: 10px;
+    height: 48px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    
+}
+
+.num{
+    width: 100%;
+    margin: 1rem auto;
+    box-shadow: none;
+}
+
+.input{
+    width: 100%;
+    line-height: 1.5rem;
+    border-radius: 5px;
+}
+
+ .butn{
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+.pad{
+    padding: 1rem;
+}
+
+.marg{
+    margin: 50px 25px;
+}
+
+.dis{
+    word-wrap: break-word;
+}
+
+.wrap{
+    white-space: pre-wrap;
+}
