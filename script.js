@@ -20,7 +20,7 @@ function generatePassword(){
     resultEl.innerText = password
 
 }
-
+//this is just a bonus --- 
 function copyToClipboard(){
 
     var copyText = document.getElementById("result");
